@@ -20,6 +20,8 @@ cmake WITH_GTK=ON PYTHON_EXECUTABLE=/user/bin/python3.6 ../
 
 Add opencv-python library into python3.7:
 pip3 install opencv-python
+python3.6 -m pip install opencv-python
+
 
 Run .py:
 (venv) [hwa150@cs18229kq ~/Downloads/CV/lab01]$ python3.6 load_video_file.py 
